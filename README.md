@@ -34,11 +34,9 @@ When researching the placement of "aria-expanded," I was getting different two a
 ### Place "aria-expanded" in the parent `<li>` tag
 Used in:
 - index1.html
-- styles1.css
 - main1.js
 
-### Place "aria-expanded" in the `<button>` that toggles the submenu.
+### Place "aria-expanded" in the `<button>` that toggles the submenu
 Used in:
 - index2.html
-- styles2.class
 - main2.js
