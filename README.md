@@ -7,16 +7,6 @@ Create a navigation bar with submenu's that open/close with hover, or when a but
 ## Note
 I'll update this over time as I learn more about accessibility and best practices (I'm still a beginner). If you would like to give me pointers, please don't hesitate! (:
 
-## Setup
-- Create the navbar with a `<ul>` list
-- Enter each of your navbar items in `<li>` tags
-- For navbar items that will contain a submenu, add `"contains-submenu"` to the `class` list
-- For the submenu:
-  - The submenu will be contained inside of the main `<li>` tag
-  - But first, include a `<button>` with `class="dropdown-btn"`
-  - Create another `<ul>` list with `class="submenu"` below the `button`
-  - Finally, add your submenu items in `<li>` tags
-
 ## How It Works
 It is a single module that handles the navbar events.
 1. The module grabs the parent `<li>` with `class="contains-submenu"`
